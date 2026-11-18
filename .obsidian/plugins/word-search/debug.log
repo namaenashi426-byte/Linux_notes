@@ -1,0 +1,178 @@
+09:08:08 搜索 "alsa" | mode=word | cs=false | 命中=5
+  05 音频：设备与库 › 库文件（alsa-asoundlib.h） 第4行 匹配=[ALSA]
+  01 前置知识 › CMake 第52行 匹配=[ALSA]
+  09 音频控制 › aplay：播放音频 第3行 匹配=[ALSA]
+  09 音频控制 › alsamixer：调节音量 第16行 匹配=[ALSA]
+  09 音频控制 › alsactl：保存 / 恢复声卡状态 第35行 匹配=[ALSA]
+09:08:09 打开 09 音频控制 | detectMode=editor | hasEditor=true | getMode=source
+09:08:11 搜索 "alsa" | mode=word | cs=false | 命中=5
+  05 音频：设备与库 › 库文件（alsa-asoundlib.h） 第4行 匹配=[ALSA]
+  01 前置知识 › CMake 第52行 匹配=[ALSA]
+  09 音频控制 › aplay：播放音频 第3行 匹配=[ALSA]
+  09 音频控制 › alsamixer：调节音量 第16行 匹配=[ALSA]
+  09 音频控制 › alsactl：保存 / 恢复声卡状态 第35行 匹配=[ALSA]
+09:08:13 搜索 "alsa" | mode=word | cs=true | 命中=0
+09:08:30 搜索 "alsamixer" | mode=word | cs=true | 命中=1
+  09 音频控制 › alsamixer：调节音量 第14行 匹配=[alsamixer]
+09:08:31 打开 09 音频控制 | detectMode=editor | hasEditor=true | getMode=source
+09:08:33 打开 09 音频控制 | detectMode=editor | hasEditor=true | getMode=source
+09:08:41 搜索 "alsamixe" | mode=word | cs=true | 命中=0
+09:08:41 搜索 "alsamix" | mode=word | cs=true | 命中=0
+09:08:41 搜索 "alsami" | mode=word | cs=true | 命中=0
+09:08:42 搜索 "alsam" | mode=word | cs=true | 命中=0
+09:08:42 搜索 "alsa" | mode=word | cs=true | 命中=0
+09:08:47 搜索 "alsa" | mode=word | cs=false | 命中=5
+  05 音频：设备与库 › 库文件（alsa-asoundlib.h） 第4行 匹配=[ALSA]
+  01 前置知识 › CMake 第52行 匹配=[ALSA]
+  09 音频控制 › aplay：播放音频 第3行 匹配=[ALSA]
+  09 音频控制 › alsamixer：调节音量 第16行 匹配=[ALSA]
+  09 音频控制 › alsactl：保存 / 恢复声卡状态 第35行 匹配=[ALSA]
+09:08:50 搜索 "alsa" | mode=word | cs=true | 命中=0
+09:08:54 搜索 "alsa" | mode=word | cs=false | 命中=5
+  05 音频：设备与库 › 库文件（alsa-asoundlib.h） 第4行 匹配=[ALSA]
+  01 前置知识 › CMake 第52行 匹配=[ALSA]
+  09 音频控制 › aplay：播放音频 第3行 匹配=[ALSA]
+  09 音频控制 › alsamixer：调节音量 第16行 匹配=[ALSA]
+  09 音频控制 › alsactl：保存 / 恢复声卡状态 第35行 匹配=[ALSA]
+09:09:01 打开 09 音频控制 | detectMode=editor | hasEditor=true | getMode=source
+09:09:02 打开 09 音频控制 | detectMode=editor | hasEditor=true | getMode=source
+09:09:04 打开 09 音频控制 | detectMode=editor | hasEditor=true | getMode=source
+09:10:04 搜索 "alsa" | mode=word | cs=false | 命中=5
+  05 音频：设备与库 › 库文件（alsa-asoundlib.h） 第4行 匹配=[ALSA]
+  01 前置知识 › CMake 第52行 匹配=[ALSA]
+  09 音频控制 › aplay：播放音频 第3行 匹配=[ALSA]
+  09 音频控制 › alsamixer：调节音量 第16行 匹配=[ALSA]
+  09 音频控制 › alsactl：保存 / 恢复声卡状态 第35行 匹配=[ALSA]
+09:10:06 搜索 "alsa" | mode=word | cs=false | 命中=5
+  05 音频：设备与库 › 库文件（alsa-asoundlib.h） 第4行 匹配=[ALSA]
+  01 前置知识 › CMake 第52行 匹配=[ALSA]
+  09 音频控制 › aplay：播放音频 第3行 匹配=[ALSA]
+  09 音频控制 › alsamixer：调节音量 第16行 匹配=[ALSA]
+  09 音频控制 › alsactl：保存 / 恢复声卡状态 第35行 匹配=[ALSA]
+09:10:13 搜索 "alsa" | mode=word | cs=false | 命中=5
+  05 音频：设备与库 › 库文件（alsa-asoundlib.h） 第4行 匹配=[ALSA]
+  01 前置知识 › CMake 第52行 匹配=[ALSA]
+  09 音频控制 › aplay：播放音频 第3行 匹配=[ALSA]
+  09 音频控制 › alsamixer：调节音量 第16行 匹配=[ALSA]
+  09 音频控制 › alsactl：保存 / 恢复声卡状态 第35行 匹配=[ALSA]
+09:10:15 搜索 "alsa" | mode=word | cs=false | 命中=5
+  05 音频：设备与库 › 库文件（alsa-asoundlib.h） 第4行 匹配=[ALSA]
+  01 前置知识 › CMake 第52行 匹配=[ALSA]
+  09 音频控制 › aplay：播放音频 第3行 匹配=[ALSA]
+  09 音频控制 › alsamixer：调节音量 第16行 匹配=[ALSA]
+  09 音频控制 › alsactl：保存 / 恢复声卡状态 第35行 匹配=[ALSA]
+09:10:17 搜索 "alsa" | mode=word | cs=false | 命中=5
+  05 音频：设备与库 › 库文件（alsa-asoundlib.h） 第4行 匹配=[ALSA]
+  01 前置知识 › CMake 第52行 匹配=[ALSA]
+  09 音频控制 › aplay：播放音频 第3行 匹配=[ALSA]
+  09 音频控制 › alsamixer：调节音量 第16行 匹配=[ALSA]
+  09 音频控制 › alsactl：保存 / 恢复声卡状态 第35行 匹配=[ALSA]
+09:10:23 搜索 "alsa" | mode=word | cs=false | 命中=5
+  05 音频：设备与库 › 库文件（alsa-asoundlib.h） 第4行 匹配=[ALSA]
+  01 前置知识 › CMake 第52行 匹配=[ALSA]
+  09 音频控制 › aplay：播放音频 第3行 匹配=[ALSA]
+  09 音频控制 › alsamixer：调节音量 第16行 匹配=[ALSA]
+  09 音频控制 › alsactl：保存 / 恢复声卡状态 第35行 匹配=[ALSA]
+09:11:36 搜索 "alsa" | mode=word | cs=false | 命中=5
+  05 音频：设备与库 › 库文件（alsa-asoundlib.h） 第4行 匹配=[ALSA]
+  01 前置知识 › CMake 第52行 匹配=[ALSA]
+  09 音频控制 › aplay：播放音频 第3行 匹配=[ALSA]
+  09 音频控制 › alsamixer：调节音量 第16行 匹配=[ALSA]
+  09 音频控制 › alsactl：保存 / 恢复声卡状态 第35行 匹配=[ALSA]
+09:11:39 搜索 "ffmpeg" | mode=word | cs=false | 命中=0
+09:11:41 搜索 "ffmpe" | mode=word | cs=false | 命中=0
+09:11:41 搜索 "ffmp" | mode=word | cs=false | 命中=0
+09:11:41 搜索 "ffm" | mode=word | cs=false | 命中=0
+09:11:41 搜索 "ff" | mode=word | cs=false | 命中=0
+09:11:42 搜索 "f" | mode=word | cs=false | 命中=4
+  05 文本与列表 › QString类 第25行 匹配=[f]
+  05 数值与格式转换 › isxdigit 第19行 匹配=[f]
+  05 查找与筛选 › find命令 第26行 匹配=[f]
+  05 查找与筛选 › find命令 第30行 匹配=[f]
+09:30:54 搜索 "-" | mode=word | cs=false | 命中=21
+  10 音视频处理 › ffmpeg：音视频处理 第4行 匹配=[-]
+  10 音视频处理 › ffmpeg：音视频处理 第6行 匹配=[-]
+  10 音视频处理 › ffmpeg：音视频处理 第9行 匹配=[-]
+  10 音视频处理 › ffmpeg：音视频处理 第10行 匹配=[-]
+  10 音视频处理 › ffmpeg：音视频处理 第11行 匹配=[-]
+  10 音视频处理 › ffmpeg：音视频处理 第12行 匹配=[-]
+  10 音视频处理 › ffmpeg：音视频处理 第13行 匹配=[-]
+  10 音视频处理 › ffmpeg：音视频处理 第14行 匹配=[-]
+09:30:55 搜索 "-b" | mode=word | cs=false | 命中=29
+  10 音视频处理 › - 第1行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第1行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第3行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第4行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第5行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第6行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第7行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第8行 匹配=（无，按其它规则命中）
+09:31:08 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:09 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:10 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:11 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:12 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:12 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:12 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:13 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:18 搜索 "-b" | mode=word | cs=true | 命中=29
+  10 音视频处理 › - 第1行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第1行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第3行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第4行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第5行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第6行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第7行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第8行 匹配=（无，按其它规则命中）
+09:31:19 搜索 "-b" | mode=word | cs=true | 命中=29
+  10 音视频处理 › - 第1行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第1行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第3行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第4行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第5行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第6行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第7行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第8行 匹配=（无，按其它规则命中）
+09:31:20 搜索 "-b" | mode=word | cs=true | 命中=29
+  10 音视频处理 › - 第1行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第1行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第3行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第4行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第5行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第6行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第7行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第8行 匹配=（无，按其它规则命中）
+09:31:21 搜索 "-b" | mode=word | cs=true | 命中=29
+  10 音视频处理 › - 第1行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第1行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第3行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第4行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第5行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第6行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第7行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第8行 匹配=（无，按其它规则命中）
+09:31:22 搜索 "-b" | mode=word | cs=true | 命中=29
+  10 音视频处理 › - 第1行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第1行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第3行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第4行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第5行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第6行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第7行 匹配=（无，按其它规则命中）
+  10 音视频处理 › ffmpeg：音视频处理 第8行 匹配=（无，按其它规则命中）
+09:31:22 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:23 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:23 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:24 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:26 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:27 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:30 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:32 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:33 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:34 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:35 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:37 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:40 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:40 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:41 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source
+09:31:41 打开 10 音视频处理 | detectMode=editor | hasEditor=true | getMode=source

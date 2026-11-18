@@ -1,0 +1,12 @@
+{
+  "global-search:open": [],
+  "word-search:open-word-search": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ]
+}

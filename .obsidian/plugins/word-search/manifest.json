@@ -1,0 +1,9 @@
+{
+  "id": "word-search",
+  "name": "增强搜索",
+  "version": "6.10.5",
+  "minAppVersion": "1.4.0",
+  "description": "本地搜索面板：整词/包含/模糊/正则、按章筛选、分组结果；点结果在编辑视图精确定位到行并选中词。",
+  "author": "local",
+  "isDesktopOnly": false
+}

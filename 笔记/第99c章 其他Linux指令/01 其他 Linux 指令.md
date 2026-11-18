@@ -1,0 +1,10 @@
+- **更新包管理环境：sudo apt update**。下载新系统后或需要更新系统时运行。
+- **下载包：apt-get install包名**。
+- **卸载包：apt-get purge包名**
+- **查看内存配置及使用情况：free -m**。
+- 更为强大的插件 \>\> `htop`。
+- **查看GPU配置及使用情况：nvidia-smi**。
+- 如需**实时刷新 \>\> watch -n 1 nvidia-smi**。
+- 或下载插件 \>\> **nvitop**（python环境包）。
+- **查看已安装包：dpkg -l**。结合grep命令可以一定程度定位想确认安装情况的包，指令为 `dpkg -l | grep "name"`。
+- **树状图形式查看目录结构（需要tree包）：tree 目录路径**。

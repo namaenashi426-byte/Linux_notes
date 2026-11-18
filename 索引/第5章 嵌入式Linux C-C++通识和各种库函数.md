@@ -1,0 +1,63 @@
+# 第5章 嵌入式Linux C-C++通识和各种库函数
+
+9 篇主题笔记。
+
+- [[01 前置知识]]
+	- 驱动程序：负责完成硬件初始化与配置，向上提供标准访问接口，并处理中断、DMA、并发、错误与电源管理等，…
+	- 应用程序：负责整体业务逻辑，通过驱动提供的接口使用外设，不直接操作硬件。
+	- 文件描述符（fd）：Linux 系统中代表“打开的文件或 I/O 资源”的非负整数索引（int 型）。
+	- CMake：跨平台的构建系统生成器。
+- [[02 文件 IO]]
+	- 库文件（fcntl.h、unistd.h）：`<fcntl.h>`和`<unistd.h>`。
+	- open：来自`<fcntl.h>`，打开设备文件并返回fd。
+	- read：来自`<unistd.h>`，从fd读入n_bytes个字节放到buf缓冲区。
+	- write：来自`<unistd.h>`，从buf写入n_bytes个字节到fd，返回实际写入的字节数。
+	- close：来自`<unistd.h>`，释放fd。
+	- lseek：来自`<unistd.h>`，设置已打开文件的读写偏移量（file offset）。
+- [[03 终端编程]]
+	- 库文件（termios.h）：`<termios.h>`。
+	- tty设备：泛指计算机“终端设备”，有
+	- termios结构体：来自`<termios.h>`，“终端属性结构体”，内含输入/输出波特率、控制标志（输入、输…
+	- tcgetattr：读取 `fd` 终端当前的属性，写进 `termios_p` 指向的结构体 —— 相当于给 …
+	- cfmakeraw：把 `termios_p` 配置成“原始模式”：关闭行缓冲/规范模式、关闭回显、关闭特殊字符…
+	- 控制字符标志位（c_cflag）配置：`termios` 的 `c_cflag` 字段负责“数据位 / 校验位 / 停止位 / 硬…
+	- cfsetspeed：同时设置输入、输出波特率。
+	- tcsetattr：把 `termios_p` 里配置好的属性应用到 `fd` 终端 —— 相当于“配置落盘”，…
+- [[04 Input 子系统]]
+	- 库文件（linux-input.h）：`<linux/input.h>`。
+	- input设备节点：/dev/input/。
+	- 已注册输入设备：/proc/bus/input/devices。
+	- input_event结构体：来自`<linux/input.h>`，input子系统转换而来的对应的“输入事件结构体”。
+- [[05 音频：设备与库]]
+	- 库文件（alsa-asoundlib.h）：`<alsa/asoundlib.h>`
+	- sound设备节点：/dev/snd/。
+	- 已注册声卡：/proc/asound/。
+- [[06 音频：混音器初始化]]
+	- snd_mixer_open：混音器初始化第 1 步：创建混音器句柄。
+	- snd_mixer_attach：初始化第 2 步：把混音器绑定到具体声卡。
+	- snd_mixer_selem_register：初始化第 3 步：注册混音器元素（selem）。
+	- snd_mixer_load：初始化第 4 步：加载该声卡的混音器配置，加载完成后才有元素可遍历。
+- [[07 音频：元素遍历与属性判断]]
+	- snd_mixer_first_elem：取第一个元素，常作为遍历起点。
+	- snd_mixer_last_elem：取最后一个元素。
+	- snd_mixer_elem_next：取下一个元素，配合 `first_elem` 做遍历。
+	- snd_mixer_elem_prev：取上一个元素。
+	- snd_mixer_selem_get_name：取元素名字，用来区分具体是哪个配置项。
+	- snd_mixer_selem_has_playback_volume：判断该元素是否带**播放**方向的音量（条柱）配置。
+	- snd_mixer_selem_has_capture_volume：判断该元素是否带**录音**方向的音量（条柱）配置。
+	- snd_mixer_selem_has_playback_switch：判断该元素是否带**播放**方向的开关（静音）配置。
+	- snd_mixer_selem_has_capture_switch：判断该元素是否带**录音**方向的开关（静音）配置。
+	- snd_mixer_selem_has_playback_channel：判断元素在**播放**方向是否包含指定通道。
+	- snd_mixer_selem_has_capture_channel：判断元素在**录音**方向是否包含指定通道。
+	- snd_mixer_selem_is_playback_mono：判断元素在**播放**方向是否为单声道。
+	- snd_mixer_selem_is_capture_mono：判断元素在**录音**方向是否为单声道。
+- [[08 音频：音量读写]]
+	- snd_mixer_selem_get_playback_volume：读取**播放**方向指定声道的音量。
+	- snd_mixer_selem_get_capture_volume：读取**录音**方向指定声道的音量。
+	- snd_mixer_selem_set_playback_volume：设置**播放**方向指定声道的音量。
+	- snd_mixer_selem_set_capture_volume：设置**录音**方向指定声道的音量。
+	- snd_mixer_selem_set_playback_volume_all：一次性设置**播放**方向所有声道的音量（常用于把左右声道拉成同一个值）。
+	- snd_mixer_selem_set_capture_volume_all：一次性设置**录音**方向所有声道的音量。
+	- snd_mixer_selem_get_playback_volume_range：取元素在**播放**方向的音量范围，用于把界面的 0~100 百分比映射到硬件区间。
+	- snd_mixer_selem_get_capture_volume_range：取元素在**录音**方向的音量范围。
+- [[09 音频：关闭混音器]]

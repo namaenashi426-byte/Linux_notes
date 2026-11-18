@@ -1,0 +1,300 @@
+{
+  "main": {
+    "id": "be259d7f12b8de45",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b155d0a76d8e2a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "767bcdfcfd066a49",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "索引/Linux学习笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Linux学习笔记"
+            }
+          },
+          {
+            "id": "7b8561484e346aea",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "索引/第1章 基础命令.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "第1章 基础命令"
+            }
+          },
+          {
+            "id": "de4041be69f3bd66",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "索引/第5章 嵌入式Linux C-C++通识和各种库函数.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "第5章 嵌入式Linux C-C++通识和各种库函数"
+            }
+          },
+          {
+            "id": "bdb8141c3a4f9177",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/第1章 基础命令/10 音视频处理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10 音视频处理"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c454181eebc5976c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea4514073d662939",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c44a39158a2c0709",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "229d7b44e70a6499",
+            "type": "leaf",
+            "state": {
+              "type": "word-search-view",
+              "state": {},
+              "icon": "search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "fe72ef6ad706f1e0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "5ac7702df38db434",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 362.5
+  },
+  "right": {
+    "id": "9b21cd7d1fb33cda",
+    "type": "split",
+    "children": [
+      {
+        "id": "7947d96ace027d13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69eeaada00d61fbd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "索引/第5章 嵌入式Linux C-C++通识和各种库函数.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "第5章 嵌入式Linux C-C++通识和各种库函数 的反向链接列表"
+            }
+          },
+          {
+            "id": "641230c80c71835e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "笔记/第1章 基础命令/10 音视频处理.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "996ab8717f28d3a4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "9740f78da08bfd9e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "be76c190b3666de0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "索引/第5章 嵌入式Linux C-C++通识和各种库函数.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "第5章 嵌入式Linux C-C++通识和各种库函数 的大纲"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": true,
+      "word-search:增强搜索": false
+    }
+  },
+  "active": "bdb8141c3a4f9177",
+  "lastOpenFiles": [
+    "笔记撰写经验.md",
+    "图片/第1章 基础命令/反引号（）.png",
+    "笔记/第1章 基础命令/10 音视频处理.md",
+    "图片/第1章 基础命令/echo命令.png",
+    "图片/第1章 基础命令/特殊路径符.png",
+    "图片/第1章 基础命令/中央裁剪示意图.png",
+    "图片/第1章 基础命令/示意图.md",
+    "图片/第1章 基础命令/重定向符（›和››）.png",
+    "笔记/第3章 权限控制/02 用户与用户组管理.md",
+    "索引/第3章 权限控制.md",
+    "索引/Linux学习笔记.md",
+    "索引/第1章 基础命令.md",
+    "笔记/第5章 嵌入式Linux C-C++通识和各种库函数/01 前置知识.md",
+    "索引/第5章 嵌入式Linux C-C++通识和各种库函数.md",
+    "笔记/第5章 嵌入式Linux C-C++通识和各种库函数/02 文件 IO.md",
+    "笔记/第1章 基础命令/01 命令基础.md",
+    "笔记/第1章 基础命令/09 音频控制.md",
+    "笔记/第1章 基础命令/10 ffmpeg.md",
+    "笔记/第5章 嵌入式Linux C-C++通识和各种库函数/05 音频：设备与库.md",
+    "笔记/第1章 基础命令/05 查找与筛选.md",
+    "笔记/第4章 C-C++通识和各种库函数/09 C++ 特性.md",
+    "笔记/第1章 基础命令/02 目录操作.md",
+    "笔记/第3章 权限控制/03 权限位解析.md",
+    "索引/第8章 Qt程序设计.md",
+    "笔记/第8章 Qt程序设计/01 环境与构建.md",
+    "笔记/第5章 嵌入式Linux C-C++通识和各种库函数/06 音频：混音器初始化.md",
+    "笔记/第5章 嵌入式Linux C-C++通识和各种库函数/07 音频：元素遍历与属性判断.md",
+    "图片/第1章 基础命令/which命令.png",
+    "图片/第2章 Vi-Vim编辑器/简介.png",
+    "图片/第2章 Vi-Vim编辑器/工作模式.png",
+    "图片/第3章 权限控制/用户与用户组.png",
+    "图片/第3章 权限控制/权限信息解析-2.png",
+    "索引/插件维护.md",
+    "未命名.base",
+    "索引/搜索指南.md",
+    "索引/整词搜索.html",
+    "索引/_search_data.json",
+    "__t.txt",
+    "索引/命令与函数总表.md",
+    "未命名 1.base",
+    "索引/第6章 嵌入式Linux的C编译与调试.md",
+    "笔记/第5章 嵌入式Linux C-C++通识和各种库函数/音频编程/混音器（mixer）",
+    "笔记/第5章 嵌入式Linux C-C++通识和各种库函数/音频编程/基础",
+    "笔记/第5章 嵌入式Linux C-C++通识和各种库函数/音频编程",
+    "笔记/第4章 C-C++通识和各种库函数",
+    "笔记/第6章 嵌入式Linux的C编译与调试"
+  ]
+}
